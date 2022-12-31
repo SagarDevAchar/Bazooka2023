@@ -15,7 +15,7 @@ body{
     bottom: 0;
     right: 0;
     z-index: 1;
-    background: rgba(0,0,0,0.75);
+    background: rgba(0,0,0,0.6);
 }
 
 .home-content {
@@ -28,19 +28,19 @@ body{
     z-index: 2;
   }
 
-.home-content h1 {
+.home-content timerText {
     color: white;
     text-align: center;
     font-size: 150px;
 }
 
-.home-content h2 {
+.home-content bazookaText {
     color: white;
     text-align: center;
     font-size: 40px;
 }
 
-.home-content p {
+.home-content clickText {
     color: white;
     font-weight: bold;
     text-align: center;

@@ -10,12 +10,17 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     </head>
 
-    <body id="body">
-        <div class="overlay"></div>
-        <div class="home-content">
-            <h2>Bazooka 2023</h2>
-            <h1 id="timeTo2023">00:00:00</h1>
-            <p id="click-text">Click for more!</p>
+    <body>
+        <div class="home">
+            <video loop id="rickroll" hidden="true">
+                <source src="assets/post-release/rickroll.mp4" type="video/mp4" />
+            </video>
+            <div class="overlay"></div>
+            <div class="home-content">
+                <h2 id="bazookaText">Bazooka 2023</h2>
+                <h1 id="timerText">00:00:00</h1>
+                <p id="clickText">Click for more!</p>
+            </div>
         </div>
 
         <audio id="nyan" loop>
