@@ -1,0 +1,44 @@
+body{
+    background-image: url('assets/pre-release/original.gif');
+    background-size: cover;
+
+    height: 100vh;
+    padding:0;
+    margin:0;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.6);
+}
+
+.home-content {
+    width: 750px;
+    margin: 0 auto;
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    top: 200px;
+    color: white;
+    z-index: 2;
+  }
+
+.home-content h1 {
+    color: white;
+    text-align: center;
+    font-size: 200px;
+    line-height: 1.1;
+}
+
+.home-content h2 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.1;
+}
