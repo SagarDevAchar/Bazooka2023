@@ -6,7 +6,7 @@ var visitedVideoIds = []
 const iframePt1 = '<iframe width="650" height="365" src="https://www.youtube-nocookie.com/embed/'
 const iframePt2 = '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
-document.getElementById("videoCountText").innerHTML = "We received " + videoIds.length + " song submissions!"
+document.getElementById("videoCountText").innerHTML = "thank You for the " + videoIds.length + " song submissions!"
 updateVideo();
 
 var tableInnerHtml = ''
