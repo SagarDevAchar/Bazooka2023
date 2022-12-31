@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    background-size: cover;
+
+    height: 100vh;
+    padding:0;
+    margin:0;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.75);
+}
+
+.home-content {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    font-family: "Montserrat";
+    top: 175px;
+    color: white;
+    z-index: 2;
+  }
+
+.home-content h1 {
+    color: white;
+    text-align: center;
+    font-size: 150px;
+}
+
+.home-content h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.home-content p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
