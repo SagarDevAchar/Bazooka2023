@@ -1,5 +1,5 @@
 body{
-    background-image: url('assets/pre-release/original.gif');
+    background-color: black;
     background-size: cover;
 
     height: 100vh;
@@ -22,7 +22,7 @@ body{
     width: 600px;
     margin: 0 auto;
     position: relative;
-    font-family: sans-serif;
+    font-family: "Montserrat";
     font-weight: bold;
     top: 200px;
     color: white;
@@ -38,5 +38,11 @@ body{
 .home-content h2 {
     color: white;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
+}
+
+.home-content p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
 }
