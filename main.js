@@ -12,7 +12,7 @@ window.addEventListener('click', (event) => {
     } else if (clickCount == 3) {
         document.getElementById('click-text').innerHTML = "Welcome to NYAN WORLD!"
     } else if (clickCount == 4) {
-        document.getElementById('click-text').innerHTML = "Alright, stop clicking"
+        document.getElementById('click-text').innerHTML = "Alright, stop clicking."
     } else if (clickCount == 5) {
         document.getElementById('click-text').innerHTML = "This is getting annoying!"
     } else if (clickCount == 6) {
