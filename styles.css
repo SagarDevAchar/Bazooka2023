@@ -19,7 +19,7 @@ body{
 }
 
 .home-content {
-    width: 750px;
+    width: 600px;
     margin: 0 auto;
     position: relative;
     font-family: sans-serif;
@@ -32,13 +32,11 @@ body{
 .home-content h1 {
     color: white;
     text-align: center;
-    font-size: 200px;
-    line-height: 1.1;
+    font-size: 150px;
 }
 
 .home-content h2 {
     color: white;
     text-align: center;
     font-size: 60px;
-    line-height: 1.1;
 }
