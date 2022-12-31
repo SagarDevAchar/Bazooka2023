@@ -37,7 +37,7 @@ function clicker() {
 window.addEventListener('vclick', clicker, false);
 window.addEventListener('click', clicker, false);
 
-let NY2023 = new Date(2022, 0, 1)
+let NY2023 = new Date(2023, 0, 1)
 let fader = false
 let timerText = document.getElementById('timerText')
 let offset = 0
