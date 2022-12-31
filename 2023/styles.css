@@ -1,4 +1,6 @@
 body{
+    /* background-image: url('assets/original.gif');
+    opacity: 0.3; */
     background-color: black;
     background-size: cover;
 
@@ -37,7 +39,7 @@ video {
     margin: auto;
     position: relative;
     font-family: "Montserrat";
-    top: 175px;
+    top: 50px;
     color: white;
     z-index: 3;
   }
@@ -45,7 +47,7 @@ video {
 .home-content h1 {
     color: white;
     text-align: center;
-    font-size: 150px;
+    font-size: 100px;
 }
 
 .home-content h2 {
@@ -59,12 +61,7 @@ video {
     font-weight: bold;
     text-align: center;
     font-size: 20px;
-}
-
-.home-content table {
-    align-self: center;
-    align-content: center;
-    align-items: center;
+    margin-bottom: 8px;
 }
 
 .fade-out {

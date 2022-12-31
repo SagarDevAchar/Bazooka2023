@@ -19,28 +19,28 @@ body{
 }
 
 .home-content {
-    width: 600px;
-    margin: 0 auto;
+    width: 650px;
+    margin: auto;
     position: relative;
     font-family: "Montserrat";
     top: 175px;
     color: white;
-    z-index: 2;
+    z-index: 3;
   }
 
-.home-content timerText {
+.home-content h1 {
     color: white;
     text-align: center;
     font-size: 150px;
 }
 
-.home-content bazookaText {
+.home-content h2 {
     color: white;
     text-align: center;
     font-size: 40px;
 }
 
-.home-content clickText {
+.home-content p {
     color: white;
     font-weight: bold;
     text-align: center;
