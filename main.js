@@ -37,13 +37,20 @@ function clicker() {
 window.addEventListener('vclick', clicker, false);
 window.addEventListener('click', clicker, false);
 
-let NY2023 = new Date(2023, 0, 1)
+let NY2023 = new Date(2022, 0, 1)
 let fader = false
 let timerText = document.getElementById('timerText')
+let offset = 0
 
 function updateContent() {
-    time = (NY2023 - new Date()) / 1000
+    time = offset + (NY2023 - new Date()) / 1000
     if (time <= 0) {
+        if (-time > 31) {
+            NY2023 = new Date()
+            offset = 11
+            return
+        }
+
         timerText.style.fontSize = "100px"
         state = 1
 
@@ -74,11 +81,10 @@ function updateContent() {
             timerText.innerHTML = "...some music!"
         else if (-time <= 28)
             timerText.innerHTML = "Presenting..."
-        else if (-time <= 30) {
+        else if (-time <= 30)
             timerText.innerHTML = "Jukebox 2023"
-
+        else if (-time <= 31)
             location.href = '2023'
-        }
     } else {
         if (time <= 1.75 && !fader) {
             fader = true;
