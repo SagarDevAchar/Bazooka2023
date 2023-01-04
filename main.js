@@ -31,7 +31,8 @@ function clicker() {
             clickText.innerHTML = "YOU CHOSE YOUR FATE!!!"
             location.href = 'https://www.youtube.com/watch?v=zqLEO5tIuYs'
         }
-    }
+    } else
+        location.href = '2023'
 }
 
 window.addEventListener('vclick', clicker, false);
